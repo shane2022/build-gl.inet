@@ -1,13 +1,10 @@
 feeds:
   - name: custom
     path: ../feeds_dir/custom
-  - name: helloworld
-    uri: https://github.com/fw876/helloworld.git
-    branch: master
-  - name:samba
+  - name: samba
     uri: https://github.com/openwrt/luci/tree/openwrt-22.03/applications/luci-app-samba4
+    revision: aec994b
 packages:
-  - luci-app-ssr-plus
   - luci-app-ddns
   - ddns-scripts
   - ddns-scripts-services
@@ -16,10 +13,7 @@ packages:
   - dnsmasq-full
   - luci-app-commands
   - luci-app-mwan3
-  - luci-app-wireguard
-  - wireguard
   - luci-app-eqos
-  - wireguard-tools
   - luci-app-samba4
 
 
