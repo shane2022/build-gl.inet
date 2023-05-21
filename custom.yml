@@ -4,6 +4,8 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+  - name:samba
+    uri: https://github.com/openwrt/luci/tree/openwrt-22.03/applications/luci-app-samba4
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -18,6 +20,7 @@ packages:
   - wireguard
   - luci-app-eqos
   - wireguard-tools
+  - luci-app-samba4
 
 
 
